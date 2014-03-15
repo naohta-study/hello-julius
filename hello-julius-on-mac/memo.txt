@@ -1,0 +1,10 @@
+http://qiita.com/o_ame/items/1236b91b15d077e03525
+HomebrewでOSXに音声解析エンジンJuliusを入れる
+Ameya Ryo
+
+Install
+$ brew tap oame/nlp
+$ brew install julius julius-dictation-kit
+
+Start!
+julius -C `brew --prefix julius-dictation-kit`/share/fast.jconf -charconv EUC-JP UTF-8
